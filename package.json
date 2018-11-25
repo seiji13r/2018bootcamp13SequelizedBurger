@@ -1,0 +1,29 @@
+{
+  "name": "2018bootcamp13sequelizedburger",
+  "version": "1.0.0",
+  "description": "This Project Shocase the use of Sequelize, Express, Handlebars, MySQL and Heroku",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seiji13r/2018bootcamp13SequelizedBurger.git"
+  },
+  "keywords": [
+    "sequelize",
+    "handlebars",
+    "express"
+  ],
+  "author": "Seiji Osada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seiji13r/2018bootcamp13SequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/seiji13r/2018bootcamp13SequelizedBurger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.2"
+  }
+}
