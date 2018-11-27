@@ -9,9 +9,12 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       burger_name: {
-        type: Sequelize.STRING
+        allowNull: false,
+        type: Sequelize.STRING,
       },
       devoured: {
+        allowNull: false,
+        defaultValue: false,
         type: Sequelize.BOOLEAN
       },
       createdAt: {
