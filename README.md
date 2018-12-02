@@ -82,12 +82,23 @@ express
     set the view engine
     set the views directory
 require the routes file
-make extpress app to use them.
+make express app to use them.
 
-Requiring our models directory **NOTE** our entry poit will be index.js `const db = require("./models")`
+Requiring our models directory **NOTE** our entry point will be index.js `const db = require("./models")`
 Syncing our sequelize models and then starting our Express app
 
-handlebars
+* Create the Handlebars Files
+    * Create the `views directory`.
+    * Create the `views/layouts/main.handlebars` files as default layout.
+    * Create the `views/index.handlebars` as entry point to render.
+    * Create the `views/partials/burgers/burger-block.handlebars` to include rendering into index.
+* Create the `public/assets` directory and include all static files required. `styles` and `javascript for the frontend`.
+* Create the `routes` files.
+    * `htmlRoutes.js` file containing get routes.
+    * `apiRoutes.js` file containing post routs for API request.
+    * Include the models call in these files to use them there.
+* Update `server.js` to make the calls to the routes files.
+
 sequelize
 
 create routes

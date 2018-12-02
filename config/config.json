@@ -1,9 +1,9 @@
 {
   "development": {
     "username": "myroot",
-    "password": "myroot",
+    "password": null,
     "database": "burger2_db",
-    "host": "192.168.1.240",
+    "host": "localhost",
     "dialect": "mysql"
   },
   "test": {
@@ -14,10 +14,8 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "izjrbrp96c84c95p",
-    "password": "x73dxl0ya92zra5t",
-    "database": "q6aa02jrth3rdlfe",
-    "host": "h2cwrn74535xdazj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "dialect": "mysql"
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql",
+    "logging": false
   }
 }
